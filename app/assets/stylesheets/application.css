@@ -1,10 +1,56 @@
-/*
- * This is a manifest file that'll be compiled into application.css.
- *
- * With Propshaft, assets are served efficiently without preprocessing steps. You can still include
- * application-wide styles in this file, but keep in mind that CSS precedence will follow the standard
- * cascading order, meaning styles declared later in the document or manifest will override earlier ones,
- * depending on specificity.
- *
- * Consider organizing styles into separate files for maintainability.
- */
+:root {
+
+  /* section divider */
+  --section-divider: #C1AFE9;
+
+  /* for buttons */
+  --gold-button: #F5B642;
+  --gold-button-hover: #FFD36A;
+  --gold-button-glow: #FFE8A3;
+
+  /* links */
+  --neon-blue-500: #4DD6FF;
+  --neon-blue-400: #7BE3FF;
+
+  /* text */
+  --text-headline: #FFFFFF;
+  --text-secondary: #E6DBF5;
+  --text-muted: #B7A7D9;
+
+  /* for bg */
+  --nav-footer: #2B1646;
+
+  --bg-main: #3B1F5C;
+  --bg-feature-section: #4E2A7A;
+  --bg-cards: #5C3A94;
+
+  /* dont know */
+  --lavender-500: #7C5CC4;
+  --lavender-400: #9B7FE0;
+  --purple-800: #3B1F5C;
+  --purple-700: #4E2A7A;
+}
+
+
+.pixelify-heading {
+  font-family: 'Pixelify Sans', monospace;
+}
+
+header {
+  background-color: var(--nav-footer);
+}
+
+body {
+  background: var(--bg-main);
+  color: var(--text-secondary);
+  font-family: 'Inter', sans-serif;
+}
+
+
+hr {
+  border: 0;
+  height: 2px;
+  background-color: var(--section-divider);
+  margin: 2.5rem auto;
+}
+

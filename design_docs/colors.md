@@ -89,7 +89,7 @@ Use sparingly for active states, links, focus rings.
 Use depth like your image does.
 
 ```css
---bg-main: #3B1F5C;       /* default page background */
+--bg-main: #3B1F5C;      /* default page background */
 --bg-section: #4E2A7A;   /* feature sections */
 --bg-card: #5C3A94;      /* cards */
 ```
